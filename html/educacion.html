@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user=scalable-no">
+    <title>educacion</title>
+  </head>
+  <body>
+    <header>
+      <!-- logo y titulo -->
+      <svg width="30px" height="30px" viewBox="0 0 30 30">
+        <img src="../arch/logo.svg" alt="Logo MDPereyra">
+      </svg>
+      <h1 style="color:#eb6300"><i>Datos de mi educación</i></h1>
+      <br/>
+        <h2 style="color:#006911">Nombres:</h2>
+          <h3>Marcos Dario</h3>
+
+        <h2 style="color:#006911">Apellido:</h2>
+          <h3>Pereyra</h3>
+
+        <h2 style="color:#006911">Fecha y Lugar de Nacimiento:</h2>
+          <h3>6 de junio 1984, Bueno Aires</h3>
+      <br/>
+    </header>
+    <nav style="background:#b87a1d" width="1200px" height="100px">
+      <!-- enlaces de navegación -->
+      <a href="html/experiencia.html">Ir a mis experiencias</a><a href="../index.html">Ir a inicio</a>
+        <br/>
+    </nav>
+    <section>
+      <h2><i>Educación</i></h2>
+      <table border="2">
+        <tr style="background:#00b85f">
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>U. Siglo 21</td>
+          <td>On-line/wilde</td>
+          <td>no</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>I.A.C.</td>
+          <td>Quilmes</td>
+          <td>si</td>
+        </tr>
+      </table>
+
+      <form autocomplete="off" name="estudios" action="index.html" method="post">
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+          <div>
+             <label for="age">Año:</label>
+             <input type="number" valu="age" />
+         </div>
+         <div>
+             <label for="text">Institución:</label>
+             <input type="text" id="text" />
+         </div>
+         <div>
+             <label for="textcuadro">Lugar:</label>
+             <textarea rows="5" cols="30" id="textcuadro" maxlength="200" placeholder="Ej.: Presencial/Bs. As."></textarea>
+         </div>
+
+         <div class="button">
+             <button type="submit">Enviar</button>
+         </div>
+       </fieldset>
+      </form>
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>
