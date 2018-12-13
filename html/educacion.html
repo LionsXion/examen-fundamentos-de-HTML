@@ -50,22 +50,41 @@
           <td>si</td>
         </tr>
       </table>
-
+        <hr>
       <form autocomplete="off" name="estudios" action="index.html" method="post">
         <fieldset>
           <legend>Agregar Estudios</legend>
-          <div>
+          <p>
              <label for="age">Año:</label>
-             <input type="number" valu="age" />
-         </div>
-         <div>
+             <select class="numer" name="anio">
+                <option disabled selected>--Seleccione año--</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+             </select>
+         </p>
+         <p>
              <label for="text">Institución:</label>
-             <input type="text" id="text" />
-         </div>
-         <div>
+             <input cols="50" type="text" id="text" />
+         </p>
+         <p>
              <label for="textcuadro">Lugar:</label>
              <textarea rows="5" cols="30" id="textcuadro" maxlength="200" placeholder="Ej.: Presencial/Bs. As."></textarea>
-         </div>
+         </p>
 
          <div class="button">
              <button type="submit">Enviar</button>
@@ -74,7 +93,7 @@
       </form>
     </section>
     <footer>
-
+      <p>Todos los derechos reservados</p>
     </footer>
   </body>
 </html>
